@@ -26,5 +26,5 @@ function downloadQRCode() {
 document.getElementById("theme-toggle").addEventListener("click", () => {
   document.body.classList.toggle("dark");
   const toggleBtn = document.getElementById("theme-toggle");
-  toggleBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+  toggleBtn.textContent = document.body.classList.contains("dark") ? "☀︎" : "⏾";
 });
